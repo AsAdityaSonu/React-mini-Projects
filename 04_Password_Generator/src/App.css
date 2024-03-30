@@ -1,0 +1,33 @@
+/* ------------------ Social Logo ------------------ */
+.dashboard-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    background-color: red;
+}
+
+.vertical-line{
+    width: 2px;
+    height: 23px;
+    background-color: white;
+    margin-right: -7px;
+}
+
+.nav-social-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav-social-logo > li > a > svg{
+    color: var(--text-color);
+}
+
+.nav-social-logo > li > a > svg:hover{
+    color: var(--secondary-color);
+    transition: 0.3s;
+}
